@@ -6,8 +6,6 @@ cooldown = "10"
 
 cooldown_seconds = 10
 
-print("Starting process...")
-
 for i in range(cooldown_seconds, 0, -1):
     print(f"cooldown = {i}")
     time.sleep(1)  
